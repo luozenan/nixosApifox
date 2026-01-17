@@ -1,0 +1,2 @@
+# nixosApifox
+一份nixos的apifox的配置文件，通过flake引用安装apifox
