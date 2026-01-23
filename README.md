@@ -32,3 +32,8 @@
   
   
 }
+
+或者
+environment.systemPackages = [
+     inputs.apifox-github.packages.${pkgs.stdenv.hostPlatform.system}.apifox
+ ]
